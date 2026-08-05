@@ -6,6 +6,7 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 import { AuthProvider } from '@/hooks/use-auth'
 import Index from './pages/Index'
 import CalendarPage from './pages/Calendar'
+import RegistrosPage from './pages/Registros'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
 
