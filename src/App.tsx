@@ -7,6 +7,7 @@ import { AuthProvider } from '@/hooks/use-auth'
 import Index from './pages/Index'
 import CalendarPage from './pages/Calendar'
 import RegistrosPage from './pages/Registros'
+import PlanoPage from './pages/Plano'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/calendario" element={<CalendarPage />} />
             <Route path="/registros" element={<RegistrosPage />} />
+            <Route path="/plano" element={<PlanoPage />} />
             {/* ADD ALL CUSTOM ROUTES MUST BE ADDED HERE */}
           </Route>
           <Route path="*" element={<NotFound />} />
