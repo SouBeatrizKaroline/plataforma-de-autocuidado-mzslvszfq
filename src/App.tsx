@@ -8,6 +8,7 @@ import Index from './pages/Index'
 import CalendarPage from './pages/Calendar'
 import RegistrosPage from './pages/Registros'
 import PlanoPage from './pages/Plano'
+import AssistentePage from './pages/Assistente'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/calendario" element={<CalendarPage />} />
             <Route path="/registros" element={<RegistrosPage />} />
             <Route path="/plano" element={<PlanoPage />} />
+            <Route path="/assistente" element={<AssistentePage />} />
             {/* ADD ALL CUSTOM ROUTES MUST BE ADDED HERE */}
           </Route>
           <Route path="*" element={<NotFound />} />
